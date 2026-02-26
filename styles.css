@@ -1,0 +1,37 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    animation: animation 4s ease alternate infinite;
+    background: linear-gradient(-40deg, #00FF00, #74ff73, #568203);
+    background-size: 300%;
+}
+
+@keyframes animation {
+    from {
+        background-position: 0 50%;
+    }
+    to {
+        background-position: 100% 50%;
+    }
+}
+
+.segunda {
+    background-color: #00FF00;
+    padding: 20px;
+    border-radius: 10px;
+    height: 350px;
+    margin-left: 400px;
+}
+
+.japa {
+
+    font-size: 32px;
+    text-align: center;
+    color: #1a0705;
+    text-shadow: 12px 12px 12px rgba(0,0,0,0.3);
+
+}
