@@ -20,7 +20,7 @@ html, body {
 }
 
 .segunda {
-    background-color: #00FF00;
+    background-color: transparent;
     padding: 20px;
     border-radius: 10px;
     height: 350px;
