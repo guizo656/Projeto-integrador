@@ -1,7 +1,6 @@
 html, body {
     height: 100%;
     margin: 0;
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -17,14 +16,24 @@ html, body {
     to {
         background-position: 100% 50%;
     }
+
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .segunda {
     background-color: transparent;
-    padding: 20px;
+    padding-right: 430px;
     border-radius: 10px;
     height: 350px;
-    margin-left: 400px;
+    padding-bottom: 15px ;
+    padding-top: 25px;
 }
 
 .japa {
@@ -33,5 +42,25 @@ html, body {
     text-align: center;
     color: #1a0705;
     text-shadow: 12px 12px 12px rgba(0,0,0,0.3);
+    padding-left: 15px;
 
+}
+
+.abobora {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    height: 500px;
+    padding-top: 50px;
+    padding-left: 25px;
+}
+
+.abobora img {
+    opacity: 0.5;
+     transition: 0.3s ease;
+}
+
+.abobora img:hover {
+    opacity: 1.0;
+    transform: scale(1.2);
 }
